@@ -11,10 +11,10 @@ namespace MortgageCalculator
       static void Main(string[] args)
       {
          //Get house price from user
-         Console.WriteLine("Please enter the house price:");
+         Console.WriteLine("Please enter the house price in dollars:");
          string inputHousePrice = Console.ReadLine();
          int housePrice = int.Parse(inputHousePrice);
-         Console.WriteLine("Please enter duration of mortgage:");
+         Console.WriteLine("Please enter duration of mortgage in years:");
          int years = int.Parse(Console.ReadLine());
          Console.WriteLine("Please enter yearly interest rate, in percentage");
          int interestPercent = int.Parse(Console.ReadLine());
@@ -23,7 +23,7 @@ namespace MortgageCalculator
 
          double total = housePrice * Math.Pow(interestRate, years);
 
-         Console.WriteLine("Your mortgage will be: " + total);
+         Console.WriteLine("Your total mortgage will be: $" + total);
 
          Console.ReadLine();
       }
