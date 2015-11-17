@@ -14,6 +14,12 @@ namespace MortgageCalculator
          Console.WriteLine("Please enter the house price:");
          string inputHousePrice = Console.ReadLine();
          int housePrice = int.Parse(inputHousePrice);
+         Console.WriteLine("Please enter duration of mortgage:");
+         int years = int.Parse(Console.ReadLine());
+         Console.WriteLine("Please enter yearly interest rate, in percentage");
+         int interestPercent = int.Parse(Console.ReadLine());
+
+         Console.ReadLine();
       }
    }
 }
