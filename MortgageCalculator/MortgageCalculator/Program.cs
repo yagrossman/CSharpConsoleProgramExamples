@@ -23,6 +23,8 @@ namespace MortgageCalculator
 
          double total = housePrice * Math.Pow(interestRate, years);
 
+         Console.WriteLine("Your mortgage will be: " + total);
+
          Console.ReadLine();
       }
    }
