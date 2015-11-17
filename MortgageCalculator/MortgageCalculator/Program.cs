@@ -19,6 +19,10 @@ namespace MortgageCalculator
          Console.WriteLine("Please enter yearly interest rate, in percentage");
          int interestPercent = int.Parse(Console.ReadLine());
 
+         double interestRate = 1 + (interestPercent / 100.0);
+
+         double total = housePrice * Math.Pow(interestRate, years);
+
          Console.ReadLine();
       }
    }
