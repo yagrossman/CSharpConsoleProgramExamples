@@ -24,7 +24,7 @@ namespace GuessingGame
             }
             else
             {
-               Console.WriteLine("Sorry, Press Enter to try Again. You have:" + (5 - @try) + "left.");
+               Console.WriteLine("Sorry, Press Enter to try Again. You have: " + (5 - @try) + "tries left.");
                Console.ReadLine();
             }
          }
