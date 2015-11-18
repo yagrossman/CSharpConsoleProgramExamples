@@ -19,7 +19,7 @@ namespace GuessingGame
             {
                if (attempt > 4)
                {
-                  Console.WriteLine("Sorry you lost.");
+                  Console.WriteLine("Sorry you lost. :(");
                   break;
                }
                Console.WriteLine("Sorry, You have: " + (5 - attempt) + " attempts left.");
@@ -30,6 +30,11 @@ namespace GuessingGame
             {
                Console.WriteLine("You Won! Way to Go!");
                break;//no need to try again
+            }
+            else
+            {
+               if (userGuess>number) Console.WriteLine("Sorry, your guess is close but its too high");
+               else Console.WriteLine("Sorry, your guess is close but its too low");
             }
          }
          Console.ReadLine();
