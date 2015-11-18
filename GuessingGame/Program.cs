@@ -18,7 +18,7 @@ namespace GuessingGame
             if (attempt > 1)
             {
                Console.WriteLine("Sorry, You have: " + (5 - attempt) + " attempts left.");
-               Console.WriteLine("Enter a number between 1 and 10 to try again.")
+               Console.WriteLine("Enter a number between 1 and 10 to try again.");
             }
             int userGuess = int.Parse(Console.ReadLine());
             if (userGuess == number)
@@ -27,7 +27,6 @@ namespace GuessingGame
                break;//no need to try again
             }
          }
-
       }
    }
 }
