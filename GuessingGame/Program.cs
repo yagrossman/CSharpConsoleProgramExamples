@@ -17,6 +17,11 @@ namespace GuessingGame
          {
             if (attempt > 1)
             {
+               if (attempt > 4)
+               {
+                  Console.WriteLine("Sorry you lost.");
+                  break;
+               }
                Console.WriteLine("Sorry, You have: " + (5 - attempt) + " attempts left.");
                Console.WriteLine("Enter a number between 1 and 10 to try again.");
             }
@@ -27,6 +32,7 @@ namespace GuessingGame
                break;//no need to try again
             }
          }
+         Console.ReadLine();
       }
    }
 }
