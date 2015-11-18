@@ -22,7 +22,7 @@ namespace GuessingGame
                   Console.WriteLine("Sorry you lost. :(");
                   break;
                }
-               Console.WriteLine("Sorry, You have: " + (5 - attempt) + " attempts left.");
+               Console.WriteLine("You have: " + (5 - attempt) + " attempts left.");
                Console.WriteLine("Enter a number between 1 and 10 to try again.");
             }
             int userGuess = int.Parse(Console.ReadLine());
