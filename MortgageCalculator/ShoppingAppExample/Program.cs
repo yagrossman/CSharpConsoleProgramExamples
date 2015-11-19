@@ -14,6 +14,7 @@ namespace ShoppingAppExample
          string[] catalog = ReadCatalogFromFile();
          string[] cart = new string[5];
          Console.WriteLine("***Welcome to this Shopping App, enter 5 products one by one to fill up cart.***");
+         Console.WriteLine("If user wants less than 5 product, just type quit when ready to checkout.");
          int positionCart = 0;
          while (cart[4]==null)
          {
@@ -25,6 +26,7 @@ namespace ShoppingAppExample
                Console.WriteLine("$$$ "+inputProduct+" has been added to your cart");
                positionCart++;
             }
+            else if(inputProduct=="quit")break;
             else
             {
                Console.WriteLine("Sorry, " + inputProduct + " is not in catalog. Try another Product.");
