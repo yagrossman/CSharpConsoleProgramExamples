@@ -31,7 +31,11 @@ namespace ShoppingAppExample
             }
          }
          Console.WriteLine("***You're ready to check out! Here are the products in your shopping cart:***");
-
+         for (int i = 0; i < 5; i++)
+         {
+            Console.WriteLine(cart[i]);
+         }
+         Console.ReadLine();
       }
 
       //reads catalog file into an array
