@@ -11,6 +11,8 @@ namespace ShoppingAppExample
    {
       static void Main(string[] args)
       {
+         string[] catalog = ReadCatalogFromFile();
+
       }
 
       //reads catalog file into an array
