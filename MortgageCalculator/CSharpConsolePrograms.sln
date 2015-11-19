@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortgageCalculator", "Mortg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame", "..\GuessingGame\GuessingGame.csproj", "{E1BB216E-0922-411E-837B-F7A170B9EDD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingAppExample", "ShoppingAppExample\ShoppingAppExample.csproj", "{3A7F62AD-9786-47AC-BF31-CC8E4006FFF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E1BB216E-0922-411E-837B-F7A170B9EDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1BB216E-0922-411E-837B-F7A170B9EDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1BB216E-0922-411E-837B-F7A170B9EDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7F62AD-9786-47AC-BF31-CC8E4006FFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7F62AD-9786-47AC-BF31-CC8E4006FFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7F62AD-9786-47AC-BF31-CC8E4006FFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7F62AD-9786-47AC-BF31-CC8E4006FFF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
