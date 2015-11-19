@@ -33,7 +33,6 @@ namespace ShoppingAppExample
             }
          }
          Console.WriteLine("***You're ready to check out! Here are the products in your shopping cart:***");
-         Array.Sort(cart);
          for (int i = 0; i < cart.Length; i++)
          {
             if (cart[i] == null) break;
