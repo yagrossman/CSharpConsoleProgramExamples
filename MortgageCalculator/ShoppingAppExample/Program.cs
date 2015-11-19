@@ -12,6 +12,12 @@ namespace ShoppingAppExample
       static void Main(string[] args)
       {
          string[] catalog = ReadCatalogFromFile();
+         string[] cart = new string[5];
+         Console.WriteLine("***Welcome to this Shopping App, enter 5 products one by one to fill up cart.");
+         while (cart[4]==null)
+         {
+
+         }
 
       }
 
