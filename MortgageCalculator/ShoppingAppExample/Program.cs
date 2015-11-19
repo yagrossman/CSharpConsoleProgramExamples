@@ -13,11 +13,24 @@ namespace ShoppingAppExample
       {
          string[] catalog = ReadCatalogFromFile();
          string[] cart = new string[5];
-         Console.WriteLine("***Welcome to this Shopping App, enter 5 products one by one to fill up cart.");
+         Console.WriteLine("***Welcome to this Shopping App, enter 5 products one by one to fill up cart.***");
+         int positionCart = 0;
          while (cart[4]==null)
          {
-
+            Console.Write("Enter a product to place in cart: ");
+            string inputProduct = Console.ReadLine();
+            if(IsProductInCatalog(inputProduct, catalog) == true)
+            {
+               cart[positionCart] = inputProduct;
+               Console.WriteLine("$$$ "+inputProduct+" has been added to your cart");
+               positionCart++;
+            }
+            else
+            {
+               Console.WriteLine("Sorry, " + inputProduct + " is not in catalog. Try another Product.");
+            }
          }
+         Console.WriteLine("***You're ready to check out! Here are the products in your shopping cart:***");
 
       }
 
