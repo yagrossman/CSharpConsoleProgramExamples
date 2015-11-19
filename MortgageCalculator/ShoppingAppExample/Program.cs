@@ -48,6 +48,7 @@ namespace ShoppingAppExample
          {
             line = input.ReadLine();
             if (line == null) break;
+            catalog[i] = line;
          }
          return catalog;
       }
