@@ -33,9 +33,10 @@ namespace ShoppingAppExample
             }
          }
          Console.WriteLine("***You're ready to check out! Here are the products in your shopping cart:***");
-         for (int i = 0; i < 5; i++)
+         for (int i = 0; i < cart.Length; i++)
          {
             Console.WriteLine(cart[i]);
+            if (cart[i] == null) break;
          }
          Console.ReadLine();
       }
