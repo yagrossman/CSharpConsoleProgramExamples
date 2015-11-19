@@ -2,3 +2,8 @@
 bread
 butter
 diapers
+rye bread
+plums
+peaches
+bananas
+eggs
