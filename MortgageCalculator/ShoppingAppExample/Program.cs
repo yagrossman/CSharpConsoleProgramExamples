@@ -27,6 +27,15 @@ namespace ShoppingAppExample
          return catalog;
       }
 
+      static bool IsProductInCatalog(string product, string[] catalog)
+      {
+         foreach(string match in catalog)
+         {
+            if (product == match)
+               return true;
+         }
+         return false;
+      }
 
    }
 }
