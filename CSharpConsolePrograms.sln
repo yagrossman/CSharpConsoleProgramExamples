@@ -5,11 +5,11 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortgageCalculator", "MortgageCalculator\MortgageCalculator.csproj", "{1E6E29FE-E39E-47FA-BA89-880645640BA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame", "..\GuessingGame\GuessingGame.csproj", "{E1BB216E-0922-411E-837B-F7A170B9EDD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame", "GuessingGame\GuessingGame.csproj", "{E1BB216E-0922-411E-837B-F7A170B9EDD3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingAppExample", "ShoppingAppExample\ShoppingAppExample.csproj", "{3A7F62AD-9786-47AC-BF31-CC8E4006FFF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackjackGame", "..\BlackjackGame\BlackjackGame.csproj", "{A1EA9EAB-5011-494F-9357-F3F902DC0874}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackjackGame", "BlackjackGame\BlackjackGame.csproj", "{A1EA9EAB-5011-494F-9357-F3F902DC0874}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
