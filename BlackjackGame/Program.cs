@@ -10,7 +10,7 @@ namespace BlackjackGame
    {
       static void Main(string[] args)
       {
-
+         Card myCard = new Card("Hearts", "Aces");
       }
    }
 }
