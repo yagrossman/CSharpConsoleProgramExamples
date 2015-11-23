@@ -62,11 +62,26 @@ namespace BlackjackGame
             case "8": return 8;
             case "9": return 9;
             case "10": return 10;
-            default: return 11; //Jack, Queen or King
+            case "Jack": return 11;
+            case "Queen": return 12;
+            default: return 13; //King
          }
-
-
       }
+
+      public string GetFace()
+      {
+         /*string face = String.Format(
+            "+---------+\n"+
+            "|{0}      |\n"+
+            "|         |\n"+
+            "|    {1}   |\n"+
+            "|         |\n"+
+            "|      {0}|\n"+
+            "+---------+", this.GetValue().ToString(), this.Suit);*/
+         string face = this.GetValue().ToString() + " of " + this.Suit;
+         return face;
+      }
+
    }
 
 }
