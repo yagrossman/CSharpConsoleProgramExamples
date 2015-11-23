@@ -21,7 +21,11 @@ namespace BlackjackGame
                break;
             }
          }
-         if(Suit==null) Console.WriteLine("Invalid Suit");
+         if (Suit == null)
+         {
+            Console.WriteLine("Invalid Suit");
+            break;
+         }
          for (int i = 0; i < 13; i++)
          {
             if (ValidRanks()[i] == rank)
@@ -78,7 +82,7 @@ namespace BlackjackGame
             "|         |\n"+
             "|      {0}|\n"+
             "+---------+", this.GetValue().ToString(), this.Suit);*/
-         string face = this.GetValue().ToString() + " of " + this.Suit;
+         string face = this.Rank + " of " + this.Suit;
          return face;
       }
 

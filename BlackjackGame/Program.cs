@@ -11,8 +11,10 @@ namespace BlackjackGame
       static void Main(string[] args)
       {
          Card myCard = new Card("Hearts", "Ace");
-         Card secondCard = new Card("Club", "10");
-
+         Card secondCard = new Card("Clubs", "10");
+         Console.WriteLine(myCard.GetFace());
+         Console.WriteLine(secondCard.GetFace());
+         Console.ReadLine();
 
       }
    }
