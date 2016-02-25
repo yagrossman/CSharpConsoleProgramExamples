@@ -11,8 +11,6 @@ namespace Input_File_Example
    {
       static void Main(string[] args)
       {
-
-
          StreamReader myReader = new StreamReader("Values.txt");
          string line = "";
 
@@ -23,9 +21,8 @@ namespace Input_File_Example
                Console.WriteLine(line);
          }
 
-         myReader.Close();
+         myReader.Close(); //needed to remove the reference to the file
          Console.ReadLine();
       }
-
    }
 }
