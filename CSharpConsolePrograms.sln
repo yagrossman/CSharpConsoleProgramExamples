@@ -11,11 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingAppExample", "Shopp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackjackGame", "BlackjackGame\BlackjackGame.csproj", "{A1EA9EAB-5011-494F-9357-F3F902DC0874}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Input_File_Example", "..\..\Visual Studio 2015\Projects\C_Sharp_Examples\Input_File_Example\Input_File_Example.csproj", "{33950064-F2AE-4287-8A5A-75A87AE2AA23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Input_File_Example", "Input_File_Example\Input_File_Example.csproj", "{33950064-F2AE-4287-8A5A-75A87AE2AA23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "..\..\Visual Studio 2015\Projects\C_Sharp_Examples\Strings\Strings.csproj", "{802A247A-F046-47D2-896B-815B630C1B6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{802A247A-F046-47D2-896B-815B630C1B6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicle_Class_Example", "..\..\Visual Studio 2015\Projects\C_Sharp_Examples\Vehicle_Class_Example\Vehicle_Class_Example.csproj", "{B6D25683-D6EA-442C-A5E4-62AC2329CD54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicle_Class_Example", "Vehicle_Class_Example\Vehicle_Class_Example.csproj", "{B6D25683-D6EA-442C-A5E4-62AC2329CD54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
