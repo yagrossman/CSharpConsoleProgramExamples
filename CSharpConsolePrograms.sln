@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingSwitch", "UsingSwitch\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingEnumerations", "UnderstandingEnumerations\UnderstandingEnumerations.csproj", "{F88CDC0D-F644-42C2-85D5-A89558266609}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlinePerformance", "AirlinePerformance\AirlinePerformance.csproj", "{7240C952-32A9-4B28-B0A6-843CA583B5E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{F88CDC0D-F644-42C2-85D5-A89558266609}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F88CDC0D-F644-42C2-85D5-A89558266609}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F88CDC0D-F644-42C2-85D5-A89558266609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7240C952-32A9-4B28-B0A6-843CA583B5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7240C952-32A9-4B28-B0A6-843CA583B5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7240C952-32A9-4B28-B0A6-843CA583B5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7240C952-32A9-4B28-B0A6-843CA583B5E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,5 +93,6 @@ Global
 		{B6D25683-D6EA-442C-A5E4-62AC2329CD54} = {5EF08090-8E44-4073-8181-2C8A306FC4E1}
 		{BBC67016-B34E-4D81-AA56-7D0D80C5FE31} = {5EF08090-8E44-4073-8181-2C8A306FC4E1}
 		{F88CDC0D-F644-42C2-85D5-A89558266609} = {5EF08090-8E44-4073-8181-2C8A306FC4E1}
+		{7240C952-32A9-4B28-B0A6-843CA583B5E0} = {A631992B-A214-4A79-B133-00C9E797372D}
 	EndGlobalSection
 EndGlobal
