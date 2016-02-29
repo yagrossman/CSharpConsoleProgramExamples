@@ -13,7 +13,7 @@ namespace C_Sharp_Examples
          Car myCar = new Car(); //initializing new Car
 
          myCar.Make = "Chevy";
-         myCar.Model = "Cruze";
+         myCar.Model = "Cruze - LT1";
          myCar.Year = 2014;
          myCar.Color = "Siver";
 
