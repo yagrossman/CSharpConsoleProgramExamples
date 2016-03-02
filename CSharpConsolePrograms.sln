@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackjackGame", "BlackjackG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTextFileWhile", "ReadTextFileWhile\ReadTextFileWhile.csproj", "{33950064-F2AE-4287-8A5A-75A87AE2AA23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{802A247A-F046-47D2-896B-815B630C1B6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsDateTime", "Strings\StringsDateTime.csproj", "{802A247A-F046-47D2-896B-815B630C1B6A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teaching Examples", "Teaching Examples", "{5EF08090-8E44-4073-8181-2C8A306FC4E1}"
 EndProject
