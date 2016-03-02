@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Examples
 {
-   class Program
+   class ClassVehicle
    {
       static void Main(string[] args)
       {

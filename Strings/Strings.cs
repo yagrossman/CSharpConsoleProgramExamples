@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Strings
 {
-   class Program
+   class Strings
    {
       static void Main(string[] args)
       {//String Stuff
@@ -19,7 +19,7 @@ namespace Strings
          myString = string.Format("{0:P}", .123);//Percentage
          myString = string.Format("Phone Number: {0:(###)-###-####}", 7737912243);//Custom Format for phone numbers
 
-         myString = " That summber we took threes accross the board  ";
+         myString = " That summer we took threes accross the board  ";
          //myString = myString.Substring(5, 14);
          //myString = myString.ToUpper();
          //myString = myString.Replace(" ", "--");
@@ -33,11 +33,9 @@ namespace Strings
          Console.WriteLine(myValue.ToShortTimeString());
          Console.WriteLine(myValue.ToLongDateString());
          Console.WriteLine(myValue.ToLongTimeString());
-
          Console.WriteLine(myValue.AddDays(3).ToLongDateString());
          Console.WriteLine(myValue.AddHours(3).ToShortTimeString());
          Console.WriteLine(myValue.AddDays(-3).ToShortDateString());
-
          Console.WriteLine(myValue.Month.ToString());
          Console.WriteLine(myValue.DayOfWeek.ToString());
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UnderstandingEnumerations
 {
-   class Program
+   class Enum
    {
       static void Main(string[] args)
       {
@@ -19,7 +19,7 @@ namespace UnderstandingEnumerations
 
          SuperHero myValue;
 
-         if (Enum.TryParse<SuperHero>(userValue, true, out myValue))
+         if (System.Enum.TryParse<SuperHero>(userValue, true, out myValue))
          {
             switch (myValue)
             {

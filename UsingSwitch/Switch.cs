@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UsingSwitch
 {
-   class Program
+   class Switch
    {
       static void Main(string[] args)
       {

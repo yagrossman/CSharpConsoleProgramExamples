@@ -7,7 +7,7 @@ using System.IO; //Needed for IO
 
 namespace Input_File_Example
 {
-   class Program
+   class ReadTextFileWhile
    {
       static void Main(string[] args)
       {
