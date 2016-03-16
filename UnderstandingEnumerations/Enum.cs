@@ -40,6 +40,7 @@ namespace UnderstandingEnumerations
          {
             Console.WriteLine("Does not compute");
          }
+         //Weekdays.happyWeekend("Saturday");
          Console.ReadLine();
 
       }
