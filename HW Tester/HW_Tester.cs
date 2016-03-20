@@ -4,29 +4,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SumOfMultiplesOfThreeAndFive
+namespace ConsoleApplication3
 {
    class Program
    {
       static void Main(string[] args)
       {
-         int sum = 0;
-         //loops throught all natural numbers below one thousand
-         for (int i = 0; i < 1000; i++)
+         int num1 = 1;
+         int num2 = 2;
+         int ttl = num2;
+
+         while (num2 <= 4000000)
          {
-            //if the current number is a multiple of three it is added to the sum
-            if (i % 3 == 0)
+            int temp = num2;
+            num2 += num1;
+            num1 = temp;
+
+            if (num2 % 2 == 0)
             {
-               sum += i;
+               ttl += num2;
             }
-            //if the current number is a multiple of five it is added to the sum
-            else if (i % 5 == 0)
-            {
-               sum += i;
-            }
+
          }
-         Console.WriteLine(sum);
-         Console.ReadLine();
+
+         Console.WriteLine(ttl);
+         Console.ReadKey();
       }
    }
 }
+
+
