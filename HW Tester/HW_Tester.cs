@@ -4,33 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication3
+namespace HW4
 {
    class Program
    {
       static void Main(string[] args)
       {
-         int num1 = 1;
-         int num2 = 2;
-         int ttl = num2;
+         int a = 1;
+         int b = 2;
+         int total = 0;
+         int run = 1;
 
-         while (num2 <= 4000000)
+         Console.WriteLine("The following are the even valued answers in the Fibonacci sequence:");
+
+         while (total <= 4000000)
          {
-            int temp = num2;
-            num2 += num1;
-            num1 = temp;
+            total = a + b;
 
-            if (num2 % 2 == 0)
+            if (total % 2 == 0)
             {
-               ttl += num2;
+               Console.WriteLine("{0}:    run #{1}, by adding {2} + {3}.", total, run, a, b);
             }
+
+            a = b;
+            b = total;
+            run += 1;
 
          }
 
-         Console.WriteLine(ttl);
          Console.ReadKey();
       }
    }
 }
-
-

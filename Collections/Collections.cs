@@ -23,21 +23,21 @@ namespace WorkingWithCollections
          b1.Title = "Microsoft .NET XML Web Services";
          b1.ISBN = "0-000-00000-0";
 
-         // ArrayLists are dynamically sized, and support other
+         //ArrayLists are dynamically sized, and support other
          // cool features like sorting, removing items, etc.
-         /*
+         
          System.Collections.ArrayList myArrayList = new System.Collections.ArrayList();
          myArrayList.Add(car1);
          myArrayList.Add(car2);
          myArrayList.Add(b1);
-         //myArrayList.Remove(b1);
+         myArrayList.Remove(b1);
 
          foreach (object o in myArrayList)
          {
             Console.WriteLine(((Car)o).Make);//have to cast to car but then wont work with book
                                              //strongly vs. weakly typed code
          }
-         */
+         
 
          // Dictionaries allow you to save a key along with
          // the value, and also support cool features.

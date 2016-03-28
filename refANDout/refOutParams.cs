@@ -10,19 +10,20 @@ namespace refANDout
    {
       static void Main(string[] args)
       {
-         int number = 20;
-         AddFive(number);
-         Console.WriteLine(number);
-         Console.ReadKey();
-         //GreetPersons(0);
-         //GreetPersons(25, "John", "Jane", "Tarzan");
+         //int number;
+         //AddFive(out number);
+         //Console.WriteLine(number);
          //Console.ReadKey();
+         GreetPersons(0);
+         GreetPersons(25, "John", "Jane", "Tarzan");
+         Console.ReadKey();
       }
 
-      static void AddFive(int number)
-      {
-         number = number + 5;
-      }
+      //static void AddFive(out int number)
+      //{
+      //   number = 20;
+      //   number = number + 5;
+      //}
 
       static void GreetPersons(int someUnusedParameter, params string[] names)
       {

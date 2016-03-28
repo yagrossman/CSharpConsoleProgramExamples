@@ -11,8 +11,9 @@ namespace Exceptions
    {
       static void Main(string[] args)
       {
-         //try {
-            StreamReader myReader = new StreamReader("\\b00\\Values.txt");
+         try
+         {
+            StreamReader myReader = new StreamReader("Values.txt");
             string line = "";
 
             while (line != null)
@@ -21,28 +22,27 @@ namespace Exceptions
                if (line != null)
                   Console.WriteLine(line);
             }
-            myReader.Close(); //needed to remove the reference to the file
-         //}
-
-         //catch (DirectoryNotFoundException e)
-         //{
-         //   Console.WriteLine("Couldn't find the file. Are you sure the DIRECTORY exists?");
-         //}
-         //catch(FileNotFoundException e)
-         //{
-         //   Console.WriteLine("Couldn't find the file. Are you sure you're looking for the correct file?");
-         //}
-         //catch (Exception e)
-         //{
-         //   Console.WriteLine("Something didnt quite work: {0}", e.Message);
-         //}
-         //finally
-         //{
-         //   //Perform any cleanup to roll back the data or close connections
-         //   //to files, database, network, etc.
-         //}
+            myReader.Close();
+         }
+         catch (DirectoryNotFoundException e)
+         {
+            Console.WriteLine("Couldn't find the file. Are you sure the DIRECTORY exists?");
+         }
+         catch (FileNotFoundException e)
+         {
+            Console.WriteLine("Couldn't find the file. Are you sure you're looking for the correct file?");
+         }
+         catch (Exception e)
+         {
+            Console.WriteLine("Something didnt quite work: {0}", e.Message);
+         }
+         finally
+         {
+            //Perform any cleanup to roll back the data or close connections
+            //to files, database, network, etc.
+         }
 
          Console.ReadLine();
-      }
+      } 
    }
 }
