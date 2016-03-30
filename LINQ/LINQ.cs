@@ -37,7 +37,7 @@ namespace LINQ
                            */
 
          //same examples using the "method" syntax instead of the LINQ query syntax (same exact output)
-         //var _bmws = myCars.Where(p => p.Year == 2010).Where(p => p.Make == "BMW"); //pass in lambda expressions
+         //var _bmws = myCars.Where(p => p.Year == 2010).Where(p => p.Make == "BMW"); //using lambda expressions
          //var _orderedCars = myCars.OrderByDescending(p => p.Year);
          //var sum = myCars.Sum(p => p.StickerPrice);
          //Console.WriteLine(sum);
