@@ -77,12 +77,13 @@ namespace WorkingWithCollections
          Dictionary<string, Car> myDictionary = new Dictionary<string, Car>();
          myDictionary.Add(car1.Make, car1);
          myDictionary.Add(car2.Make, car2);
+         //myDictionary.Add(b1.Author, b1);
 
          Console.WriteLine(myDictionary["Geo"].Model); //No casting!
          */
          /*
-         List<Car> myList = new List<Car>() //This is all one long statement, 2 new isntances of car in
-                                             // a new instance of the collection
+         List<Car> myList = new List<Car>() // This is all one long statement, 2 new instances of car in
+                                            // a new instance of the collection
          {
             new Car {Make = "Oldsmobile", Model = "Cutlas Supreme" },
             new Car {Make = "Geo", Model = "Prism"}

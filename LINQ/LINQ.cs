@@ -28,21 +28,22 @@ namespace LINQ
          /*
          var bmws = from car in myCars        //this creates new anonymous collection with these 3 types
                       where car.Make == "BMW"
-                      select new { car.Make, car.Model, car.Year };*/
-
-         /* //here we can order the cars by their year
+                      select new { car.Make, car.Model, car.Year };
+                      
+         //here we can order the cars by their year
          var orderedCars = from car in myCars
-                           orderby car.Year descending //default is ascending
+                           where car.Make == "BMW"
+                           orderby car.Year descending
                            select car;
-                           */
-
+                */
+         /*
          //same examples using the "method" syntax instead of the LINQ query syntax (same exact output)
-         //var _bmws = myCars.Where(p => p.Year == 2010).Where(p => p.Make == "BMW"); //using lambda expressions
-         //var _orderedCars = myCars.OrderByDescending(p => p.Year);
-         //var sum = myCars.Sum(p => p.StickerPrice);
-         //Console.WriteLine(sum);
-
-         foreach (var car in myCars) //var is implicit and lets the compiler figure out which type to use
+         var _bmws = myCars.Where(p => p.Year == 2010).Where(p => p.Make == "BMW"); //using lambda expressions
+         var _orderedCars = myCars.OrderByDescending(p => p.Year);
+         var sum = myCars.Sum(p => p.StickerPrice);
+         Console.WriteLine(sum);
+         */
+         foreach (var car in _bmws) //var is implicit and lets the compiler figure out which type to use
             Console.WriteLine("{0} - {1} - {2}", car.Make, car.Model, car.Year);
 
          Console.ReadLine();
