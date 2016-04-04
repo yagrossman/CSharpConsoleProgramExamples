@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortgageCalculator", "MortgageCalculator\MortgageCalculator.csproj", "{1E6E29FE-E39E-47FA-BA89-880645640BA4}"
 EndProject
@@ -46,6 +46,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{2AD6F78C-CCF3-485D-8941-1B5C852618DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_AirlinePerformance", "LINQ_AirlinePerformance\LINQ_AirlinePerformance.csproj", "{7DF80A0C-B69A-4C77-BC31-1E1D54A2F7FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 5", "Lecture 5", "{B695AEE4-E81E-4AF6-B3A2-7718BF5852F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events_Timer", "Events_Timer\Events_Timer.csproj", "{02937BAD-7833-4C72-9F2C-CECE5538B93F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +125,10 @@ Global
 		{7DF80A0C-B69A-4C77-BC31-1E1D54A2F7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DF80A0C-B69A-4C77-BC31-1E1D54A2F7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DF80A0C-B69A-4C77-BC31-1E1D54A2F7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02937BAD-7833-4C72-9F2C-CECE5538B93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02937BAD-7833-4C72-9F2C-CECE5538B93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02937BAD-7833-4C72-9F2C-CECE5538B93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02937BAD-7833-4C72-9F2C-CECE5538B93F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,5 +153,7 @@ Global
 		{D15661B5-3619-48D8-BCD6-65DAFF0BE224} = {5EF08090-8E44-4073-8181-2C8A306FC4E1}
 		{2AD6F78C-CCF3-485D-8941-1B5C852618DF} = {D15661B5-3619-48D8-BCD6-65DAFF0BE224}
 		{7DF80A0C-B69A-4C77-BC31-1E1D54A2F7FE} = {A631992B-A214-4A79-B133-00C9E797372D}
+		{B695AEE4-E81E-4AF6-B3A2-7718BF5852F0} = {5EF08090-8E44-4073-8181-2C8A306FC4E1}
+		{02937BAD-7833-4C72-9F2C-CECE5538B93F} = {B695AEE4-E81E-4AF6-B3A2-7718BF5852F0}
 	EndGlobalSection
 EndGlobal
