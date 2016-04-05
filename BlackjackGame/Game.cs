@@ -47,12 +47,14 @@ namespace BlackjackGame
          {
             Console.WriteLine("Blackjack! The house always wins in the end! ;)");
             Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
             Environment.Exit(1);
          }
          if (UserWon)
          {
             Console.WriteLine("Blackjack! You Won! Great job sticking it to The Man! :)");
             Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
             Environment.Exit(1);
          }
       }
