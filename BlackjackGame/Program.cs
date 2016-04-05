@@ -10,10 +10,15 @@ namespace BlackjackGame
    {
       static void Main(string[] args)
       {
-         Card myCard = new Card("Hearts", "Ace");
-         Card secondCard = new Card("Clubs", "10");
-         Console.WriteLine(myCard.GetFace());
-         Console.WriteLine(secondCard.GetFace());
+         Deck myDeck = new Deck();
+         Card card1 = myDeck.DrawCard();
+         Console.WriteLine(card1.GetFace());
+         Console.WriteLine(myDeck.DrawCard().GetFace());
+         Console.WriteLine("for loop");
+         for (int i = 0; i < 52; i++)
+         {
+            Console.WriteLine(myDeck.DrawCard().GetFace());
+         }
          Console.ReadLine();
 
       }
