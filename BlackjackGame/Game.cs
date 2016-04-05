@@ -10,7 +10,7 @@ namespace BlackjackGame
    {
       bool UserWon;
       bool ComputerWon;
-      int UserScore;
+      public int UserScore;
       public int ComputerScore;
       Deck Deck;
 
@@ -41,19 +41,20 @@ namespace BlackjackGame
          if (UserScore > 21) ComputerWon = true;
       }
 
-      public bool GameWinCheck()
+      public void GameWinCheck()
       {
          if (ComputerWon)
          {
-            Console.WriteLine("Game over, Computer Won! The house always wins in the end! ;)");
-            return true;
+            Console.WriteLine("Blackjack! The house always wins in the end! ;)");
+            Console.WriteLine("Press any key to exit.");
+            Environment.Exit(1);
          }
          if (UserWon)
          {
-            Console.WriteLine("Game over, You Won! Great job sticking it to The Man! :)");
-            return true;
+            Console.WriteLine("Blackjack! You Won! Great job sticking it to The Man! :)");
+            Console.WriteLine("Press any key to exit.");
+            Environment.Exit(1);
          }
-         return false;
       }
 
    }

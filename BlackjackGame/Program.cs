@@ -19,33 +19,29 @@ namespace BlackjackGame
          {
             myGame.ComputerMove();
          }
-         if (myGame.GameWinCheck())
-         {
-            Console.WriteLine("Press any key to exit.");
-            Environment.Exit(1);
-         }
+         myGame.GameWinCheck();
          myGame.UserMove();
          myGame.UserMove();
-         while (myGame.GameWinCheck() == false)
+         myGame.GameWinCheck();
+         while (true)
          {
             Console.WriteLine("Would you like to draw another card (Y/N)?");
             if (Console.ReadLine().ToUpper() == "Y")
             {
                myGame.UserMove();
-               if (myGame.GameWinCheck())
+               myGame.GameWinCheck();
+            }
+            else
+            {
+               if (myGame.ComputerScore > myGame.UserScore)
                {
-                  Console.WriteLine("Press any key to exit.");
-                  Environment.Exit(1);
+                  Console.WriteLine("GAME OVER \n The house has {0} points, you have {1} points.", myGame.ComputerScore, myGame.UserScore);
+                  Console.WriteLine("The house always wins in the end! ;)");
                }
             }
-
-               
+            myGame.ComputerMove();
+            myGame.GameWinCheck();
          }
-         myGame.ComputerMove();
-         myGame.UserMove();
-
-         Console.ReadLine();
-
       }
    }
 }
