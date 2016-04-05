@@ -12,7 +12,7 @@ namespace BlackjackGame
       public Random Randomizer { get; set; }
       int cardsLeftInDeck = 52;
 
-      public Deck()
+      public Deck()  // Deck Constructor
       {
          Cards = new Card[52];
          int cardsPos = 0;
@@ -26,7 +26,7 @@ namespace BlackjackGame
          Randomizer = new Random();
       }
 
-      public Card DrawCard()
+      public Card DrawCard()  // method to draw a random card from the deck
       {
          if(cardsLeftInDeck == 0) { // ensures there are still cards to draw from.
             Console.WriteLine("Deck is empty. Press any key to Exit");

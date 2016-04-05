@@ -11,7 +11,7 @@ namespace BlackjackGame
       string Suit;
       string Rank;
 
-      public Card(string suit, string rank)
+      public Card(string suit, string rank)  // Card Constructor
       {
          for (int i = 0; i < 4; i++)   // check and assign suit to card
          {
@@ -48,7 +48,7 @@ namespace BlackjackGame
          return validRankArray;
       }
 
-      public int GetValue()
+      public int GetValue()   // method to return value of a card
       {
          switch (this.Rank)
          {
@@ -65,7 +65,7 @@ namespace BlackjackGame
          }
       }
 
-      public string GetFace()
+      public string GetFace() // method to return string of card value;
       {
          string face = String.Format(
             this.Rank + " of " + this.Suit); 
