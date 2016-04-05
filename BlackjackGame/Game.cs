@@ -8,15 +8,31 @@ namespace BlackjackGame
 {
    class Game
    {
-      bool UserWon = false;
-      bool ComputerWon = false;
-      int UserScore = 0;
-      int ComputerScore = 0;
+      bool UserWon;
+      bool ComputerWon;
+      int UserScore;
+      int ComputerScore;
       Deck Deck;
 
-      public Game()
+      public Game()  // Game Constructor
+      {
+         UserWon = false;
+         ComputerWon = false;
+         UserScore = 0;
+         ComputerScore = 0;
+         Deck = new Deck();
+      }
+
+      public void ComputerMove() // method to complete a computer move
+      {
+
+
+      }
+
+      public void UserMove()  // method to complete a users move
       {
 
       }
+
    }
 }
