@@ -25,13 +25,20 @@ namespace BlackjackGame
 
       public void ComputerMove() // method to complete a computer move
       {
-
-
+         Card computerCard = Deck.DrawCard();
+         ComputerScore += computerCard.GetValue();
+         Console.WriteLine("Computer drew a {0} and now has {1} points.", computerCard.GetFace(), ComputerScore);
+         if (ComputerScore == 21) ComputerWon = true;
+         if (ComputerScore > 21) UserWon = true;
       }
 
       public void UserMove()  // method to complete a users move
       {
-
+         Card userCard = Deck.DrawCard();
+         UserScore += userCard.GetValue();
+         Console.WriteLine("User drew a {0} and now has {1} points.", userCard.GetFace(), UserScore);
+         if (UserScore == 21) UserWon = true;
+         if (UserScore > 21) ComputerWon = true;
       }
 
    }
