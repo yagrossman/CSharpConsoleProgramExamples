@@ -68,14 +68,14 @@ namespace BlackjackGame
       public string GetFace()
       {
          string face = String.Format(
-            this.Rank + " of " + this.Suit + 
-          "\n+---------+\n"+
-            "|{0}       |\n"+
-            "|         | \n"+
-            "|  {1} |    \n"+
-            "|         | \n"+
-            "|       {0}|\n"+
-            "+---------+", this.Rank, this.Suit);
+            this.Rank + " of " + this.Suit); 
+          //"\n+---------+\n"+
+          //  "|{0}       |\n"+
+          //  "|         | \n"+
+          //  "|  {1} |    \n"+
+          //  "|         | \n"+
+          //  "|       {0}|\n"+
+          //  "+---------+", this.Rank, this.Suit);
          
          return face;
       }
