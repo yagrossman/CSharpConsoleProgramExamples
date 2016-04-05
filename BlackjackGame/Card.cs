@@ -13,7 +13,7 @@ namespace BlackjackGame
 
       public Card(string suit, string rank)
       {
-         for (int i = 0; i < 4; i++)
+         for (int i = 0; i < 4; i++)   // check and assign suit to card
          {
             if (ValidSuits()[i] == suit)
             {
@@ -22,7 +22,7 @@ namespace BlackjackGame
             }
          }
          if (Suit == null) Console.WriteLine("Invalid Suit");
-         for (int i = 0; i < 13; i++)
+         for (int i = 0; i < 13; i++)  // check and assign rank to card
          {
             if (ValidRanks()[i] == rank)
             {
@@ -61,10 +61,7 @@ namespace BlackjackGame
             case "7": return 7;
             case "8": return 8;
             case "9": return 9;
-            case "10": return 10;
-            case "Jack": return 11;
-            case "Queen": return 12;
-            default: return 13; //King
+            default: return 10;
          }
       }
 
