@@ -25,13 +25,13 @@ namespace Events_Timer
          Console.ReadLine();
       }
 
-      private static void MyTimer_Elapsed(object sender, ElapsedEventArgs e)
+      private static void MyTimer_Elapsed(object sender, ElapsedEventArgs e) //event handler
       {
          Console.ForegroundColor = ConsoleColor.White;
          Console.WriteLine("Elapsed: {0:HH:mm:ss.fff}", e.SignalTime); //gives down to milliseconds
       }
 
-      private static void MyTimer_Elapsed1(object sender, ElapsedEventArgs e)
+      private static void MyTimer_Elapsed1(object sender, ElapsedEventArgs e) //event handler
       {
          Console.ForegroundColor = ConsoleColor.Red;
          Console.WriteLine("Elapsed: {0:HH:mm:ss.fff}", e.SignalTime);

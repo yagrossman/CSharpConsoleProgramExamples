@@ -19,12 +19,12 @@ namespace LINQ
             };
 
          //LINQ query to filter only bmws && 2010 models from our Car list myCars
-         /*
+         
          var bmws = from car in myCars
                     where car.Make == "BMW"
                     && car.Year == 2010
                     select car;
-         */
+         
          /*
          var bmws = from car in myCars        //this creates new anonymous collection with these 3 types
                       where car.Make == "BMW"
@@ -43,7 +43,7 @@ namespace LINQ
          var sum = myCars.Sum(p => p.StickerPrice);
          Console.WriteLine(sum);
          */
-         foreach (var car in _bmws) //var is implicit and lets the compiler figure out which type to use
+         foreach (var car in bmws) //var is implicit and lets the compiler figure out which type to use
             Console.WriteLine("{0} - {1} - {2}", car.Make, car.Model, car.Year);
 
          Console.ReadLine();
