@@ -14,16 +14,17 @@ namespace Events_Timer
          Timer myTimer = new Timer(2000);
 
          myTimer.Elapsed += MyTimer_Elapsed; //attaching MyTimer_Elapsed method to myTimer.Elapsed event
-         //myTimer.Elapsed += MyTimer_Elapsed1;
+         myTimer.Elapsed += MyTimer_Elapsed1;
 
          myTimer.Start();
 
-         //Console.WriteLine("Press enter to remove the red event.");
-         //Console.ReadLine();
-         //myTimer.Elapsed -= MyTimer_Elapsed1;
+         Console.WriteLine("Press enter to remove the red event.");
+         Console.ReadLine();
+         myTimer.Elapsed -= MyTimer_Elapsed1;
 
          Console.ReadLine();
       }
+
 
       private static void MyTimer_Elapsed(object sender, ElapsedEventArgs e) //event handler
       {
